@@ -6,10 +6,38 @@
     <description>Recent content in Posts on MCoder Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Mar 2018 23:35:22 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 13:18:53 +0800</lastBuildDate>
     
 	<atom:link href="https://nerd010.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hyperledger_Fabric_相关文档</title>
+      <link>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Thu, 29 Mar 2018 13:18:53 +0800</pubDate>
+      
+      <guid>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</guid>
+      <description>搬来搬去，还是想有自己的地方，于是到这里来了
+学习网址  BLOCKCHAIN FOR DEVELOPERS 官方网址 已不可用   这个网址是ibm给的测试网址，注册进去就可以设置4个节点的区块链，而且有智能合约可以测试   区块链和HyperLedger开源技术讲堂 最好的入门视频教程
+ hyperledger-fabric 官方文档 需要通读
+ hyperledger 官网
+ GitHub hyperledger/fabric
+ GitHub hyperledger/fabric-sdk-node
+ GitHub hyperledger/fabric-sdk-java
+ fabric-sdk-go
+ Fabric 1.0 源码分析
+ 搜索疑难问题链接
+ fabric 代码库
+ hypeledger 开发进展
+ java智能合约部署与开发
+ api网址
+ Overview - Hyperledger Fabric
+ IBM Blockchain
+ hyperledger/fabric
+ chat.hyperledger.org
+ Gerrit Code Review
+ 00-Empty View [Jenkins]</description>
+    </item>
     
     <item>
       <title>Hello Hugo</title>
