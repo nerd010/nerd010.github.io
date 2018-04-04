@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipfs on MCoder Blog</title>
+    <link>https://nerd010.github.io/tags/ipfs/</link>
+    <description>Recent content in Ipfs on MCoder Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Apr 2018 18:00:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://nerd010.github.io/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPFS</title>
+      <link>https://nerd010.github.io/post/ipfs/</link>
+      <pubDate>Wed, 04 Apr 2018 18:00:40 +0800</pubDate>
+      
+      <guid>https://nerd010.github.io/post/ipfs/</guid>
+      <description>IPFS 这篇文章的原文是在 Gavin的博客 读下来后不是很懂。感觉中文的有些生硬和不好理解的地方，记录一下，继续研究。
+摘要  星际文件系统是一种点对点的分布式文件系统, 旨在连接所有有相同的文件系统的计算机设备而IPFS是一个单一的Bittorrent 群集， 用git 仓库分布式存储 IPFS 提供了高吞吐量的内容寻址块存储模型， 具有内容寻址的超链接 IPFS 结合了分布式哈希表,带有激励机制的块交换和自我认证命名空间 IPFS 没有单故障点， 节点不需要相互信任  介绍 在学术尝试中
+ AFS【6】 AFS【7】  Napster, KaZaA 和BitTorrent[2]部署的文件分发系统支持1亿用户的同时在线
+我们正在进入数据分发的新纪元
+ （a）托管和分发 PB 级数据集 （b）跨组织的大数据计算 （c）大批量的高清晰度按需或实时媒体流 （d）大规模数据集的版本化和链接 （e）防止意外丢失重要文件等。其中许多可以归结为“大量数据，无处不在”。由于关键功能和带宽问题，我们已经为不同的数据放弃了HTTP 分销协议。下一步是使它们成为web自己的一部分。
+ 有效的数据分发，
+ 版本控制系统: Git是分布式源代码版本控制系统
+  已经设法开发重要的数据协作工作流程
+Git 启发的新解决方案正在出现 - Camlistore： 个人文件存储系统 - Dat： 数据协作工具链和数据集包管理器
+IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问题
+背景 分布式哈希表（DHT） 分布式散列表（DHT）被广泛用于协调和维护关于对等系统的元数据  KADEMLIA DHT Kademlia[10] 是受欢迎的DHT, 它提供 - 1.通过大量网络进行高效查询 - 2.</description>
+    </item>
+    
+  </channel>
+</rss>
