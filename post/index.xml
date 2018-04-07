@@ -6,16 +6,41 @@
     <description>Recent content in Posts on MCoder Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 18:00:40 +0800</lastBuildDate>
+    <managingEditor>markwang559@gmail.com (smallX)</managingEditor>
+    <webMaster>markwang559@gmail.com (smallX)</webMaster>
+    <lastBuildDate>Thu, 05 Apr 2018 12:01:38 +0800</lastBuildDate>
     
 	<atom:link href="https://nerd010.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>2018 04 05 超效率手册</title>
+      <link>https://nerd010.github.io/post/2018-04-05-%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C/</link>
+      <pubDate>Thu, 05 Apr 2018 12:01:38 +0800</pubDate>
+      <author>markwang559@gmail.com (smallX)</author>
+      <guid>https://nerd010.github.io/post/2018-04-05-%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C/</guid>
+      <description>这本书的作者是加拿大人 斯科特·扬（Scott Young）, 他有自己的学习类博客和网站。这本书中提出了 99 个方法能帮你在更短的时间内做更多的事情。
+第一章 克服拖延症 作者在这一章里提到了 14 种方法，
+ 周/日目标 限定时间 分解任务 短跑理论 日程校对 加强自律 使用咒语 根除潜在的绊脚石 动力催化剂 搅拌 营造一个不会分心的工作场所 拒绝『应该』 预备、射击、瞄准 摒弃拖延恶习  周/日目标 主要讲解的是通过对任务的分解，明确目标。
+ 在每周的最后一天列出你下一周想要完成的工作。 在每天结束时，把明天要完成的目标准备好。 一旦完成了一天的目标，就停止一天的工作。  我想第三条对大多数人都很难做到吧。当我们提前完成了一天的任务时，我们可能更多的会想继续做之后的事，而不是就这么结束。
+当然作者只是说停止工作，其实你就有时间可以做其他的事情了。这样其实对大脑的放松有一定的好处，让我们的存储脑可以开始整理和关联的工作。因为在《慢思考》中提到，我们的大脑主要分为有三个大的区域：反射脑、思考脑、存储脑。当你在工作时，大脑中的思考脑占用大部分的资源，当你在休息时，你的存储脑就抓紧时间来占用来用的所有资源来处理你在工作中的内容。
+每周的工作任务列出来会让你专注于大的规划，而每天的工作任务则会让你远离压力，更轻松的面对。
+限定时间 限定时间是指在工作完成之前或在时间用完之前不可以停下来。目的是为了提高效率，刚开始可能会比较『残酷』。但是会有收获。它可以击退你心中的拖延恶魔，哈哈。表现在两个方面：
+ 时间短（30 ~ 90 分钟）：这个其实也可以考虑一下『蕃茄工作法』，主要目的是为了让人更容易接受，更合理的利用大脑来工作。 紧追感：限定时间会刺激你加快速度  限定时间会让你更集中注意力，在这个过程中你会超过设定的时间，你会更容易持续工作。 限定时间是你开始工作的第一的推动力。
+所以当你不想工作时，你就可以设定一个 90 分钟的『时间盒子』，清理你的桌子，关掉收件箱，专心工作 90 分钟。
+分解任务 工作或学习中，我们应该都知道，相比于简单电明了的事，越是不明确的大型任务，我们越不知道应该如何下手，所以我们要学会分解任务。
+你的任务必须将接下来 60 秒该做什么都写得清清楚楚。刚开始做这件事是有一定难度的，可这正是你学习分析问题，分解任务的好时机呀。
+ 分解你不喜欢的任务。 分解那些没有明确截止时间的任务。  短跑理论 掌握短跑理论是进行自律的关键
+短跑理论适用于一些纪律性很强的任务。
+举几个例子：
+ 起床：闹钟响后，强迫自己清醒并保持 10 分钟。 习惯：坚持一个习惯 30 天 创作阻碍：再坚持创作 20 分钟。然后休息。  这里讲的主要意思就是 做事要有自律性，要坚持，保持规律。</description>
+    </item>
+    
+    <item>
       <title>IPFS</title>
       <link>https://nerd010.github.io/post/ipfs/</link>
       <pubDate>Wed, 04 Apr 2018 18:00:40 +0800</pubDate>
-      
+      <author>markwang559@gmail.com (smallX)</author>
       <guid>https://nerd010.github.io/post/ipfs/</guid>
       <description>IPFS 这篇文章的原文是在 Gavin的博客 读下来后不是很懂。感觉中文的有些生硬和不好理解的地方，记录一下，继续研究。
 摘要  星际文件系统是一种点对点的分布式文件系统, 旨在连接所有有相同的文件系统的计算机设备而IPFS是一个单一的Bittorrent 群集， 用git 仓库分布式存储 IPFS 提供了高吞吐量的内容寻址块存储模型， 具有内容寻址的超链接 IPFS 结合了分布式哈希表,带有激励机制的块交换和自我认证命名空间 IPFS 没有单故障点， 节点不需要相互信任  介绍 在学术尝试中
@@ -34,7 +59,7 @@ IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问
       <title>加密数字货币白皮书</title>
       <link>https://nerd010.github.io/post/%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</link>
       <pubDate>Thu, 29 Mar 2018 14:16:05 +0800</pubDate>
-      
+      <author>markwang559@gmail.com (smallX)</author>
       <guid>https://nerd010.github.io/post/%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</guid>
       <description> 加密数字货币白皮书  POWER LEDGER 中文 POWER LEDGER 英文 比特币白皮书 以太坊 量子链 零币 ICOCION 比特股 比原链 瑞资链 点点币 元宝币 质数币 未来币 瑞波币 小蚁 达世币 BAT 彩色币 以太经典 印链 元界 元界数字身份认证 ZENGOLD 房地产代币 EOS DHG  Starta  iEx  公*宝  UG链：去中⼼化游戏账户系统  玄链：一个基于区块链技术的颠覆式小说原创阅读平台  域链  联合币 Achain ATLANT 平台  </description>
     </item>
@@ -43,7 +68,7 @@ IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问
       <title>Hyperledger_Fabric_相关文档</title>
       <link>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</link>
       <pubDate>Thu, 29 Mar 2018 13:18:53 +0800</pubDate>
-      
+      <author>markwang559@gmail.com (smallX)</author>
       <guid>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</guid>
       <description>搬来搬去，还是想有自己的地方，于是到这里来了
 学习网址  BLOCKCHAIN FOR DEVELOPERS 官方网址 已不可用   这个网址是ibm给的测试网址，注册进去就可以设置4个节点的区块链，而且有智能合约可以测试   区块链和HyperLedger开源技术讲堂 最好的入门视频教程
@@ -71,7 +96,7 @@ IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问
       <title>Hello Hugo</title>
       <link>https://nerd010.github.io/post/first/</link>
       <pubDate>Sat, 24 Mar 2018 23:35:22 +0800</pubDate>
-      
+      <author>markwang559@gmail.com (smallX)</author>
       <guid>https://nerd010.github.io/post/first/</guid>
       <description>Hello Hugo 折腾了一周多的时间，现在终于可以用了。暂时没用 wercker，官方文档说得也是比较明白。
 最开始也是在自己的 VPS 上用 wordpress 上搞的。整体也整理好了。当我想换个主题时就发现很麻烦，然后就开始找有没有一种搭建个人博客的方式是更简单，更便于管理和修改主题的。先是找到了 Jekyll, 然后就找到了 Hexo 和 Hugo，最后决定定居在 Hugo。

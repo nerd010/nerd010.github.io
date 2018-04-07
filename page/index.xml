@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on MCoder Blog</title>
+    <link>https://nerd010.github.io/page/</link>
+    <description>Recent content in Pages on MCoder Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>markwang559@gmail.com (smallX)</managingEditor>
+    <webMaster>markwang559@gmail.com (smallX)</webMaster>
+    <lastBuildDate>Sat, 24 Mar 2018 23:33:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://nerd010.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://nerd010.github.io/page/about/</link>
+      <pubDate>Sat, 24 Mar 2018 23:33:15 +0800</pubDate>
+      <author>markwang559@gmail.com (smallX)</author>
+      <guid>https://nerd010.github.io/page/about/</guid>
+      <description>Hi, I&amp;rsquo;m Richard. This is about me
+ email: markwang559@gmail.com phone number: 123456789  </description>
+    </item>
+    
+  </channel>
+</rss>
