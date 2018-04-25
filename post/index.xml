@@ -38,10 +38,10 @@
     
     <item>
       <title>IPFS</title>
-      <link>https://nerd010.github.io/post/ipfs/</link>
+      <link>https://nerd010.github.io/post/2018-04-04-ipfs/</link>
       <pubDate>Wed, 04 Apr 2018 18:00:40 +0800</pubDate>
       <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/post/ipfs/</guid>
+      <guid>https://nerd010.github.io/post/2018-04-04-ipfs/</guid>
       <description>IPFS 这篇文章的原文是在 Gavin的博客 读下来后不是很懂。感觉中文的有些生硬和不好理解的地方，记录一下，继续研究。
 摘要  星际文件系统是一种点对点的分布式文件系统, 旨在连接所有有相同的文件系统的计算机设备而IPFS是一个单一的Bittorrent 群集， 用git 仓库分布式存储 IPFS 提供了高吞吐量的内容寻址块存储模型， 具有内容寻址的超链接 IPFS 结合了分布式哈希表,带有激励机制的块交换和自我认证命名空间 IPFS 没有单故障点， 节点不需要相互信任  介绍 在学术尝试中
  AFS【6】 AFS【7】  Napster, KaZaA 和BitTorrent[2]部署的文件分发系统支持1亿用户的同时在线
@@ -57,19 +57,19 @@ IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问
     
     <item>
       <title>加密数字货币白皮书</title>
-      <link>https://nerd010.github.io/post/%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</link>
+      <link>https://nerd010.github.io/post/2018-03-29-%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</link>
       <pubDate>Thu, 29 Mar 2018 14:16:05 +0800</pubDate>
       <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/post/%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</guid>
+      <guid>https://nerd010.github.io/post/2018-03-29-%E5%8A%A0%E5%AF%86%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E7%99%BD%E7%9A%AE%E4%B9%A6/</guid>
       <description> 加密数字货币白皮书  POWER LEDGER 中文 POWER LEDGER 英文 比特币白皮书 以太坊 量子链 零币 ICOCION 比特股 比原链 瑞资链 点点币 元宝币 质数币 未来币 瑞波币 小蚁 达世币 BAT 彩色币 以太经典 印链 元界 元界数字身份认证 ZENGOLD 房地产代币 EOS DHG  Starta  iEx  公*宝  UG链：去中⼼化游戏账户系统  玄链：一个基于区块链技术的颠覆式小说原创阅读平台  域链  联合币 Achain ATLANT 平台  </description>
     </item>
     
     <item>
       <title>Hyperledger_Fabric_相关文档</title>
-      <link>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</link>
+      <link>https://nerd010.github.io/post/2018-03-29-hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</link>
       <pubDate>Thu, 29 Mar 2018 13:18:53 +0800</pubDate>
       <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/post/hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</guid>
+      <guid>https://nerd010.github.io/post/2018-03-29-hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/</guid>
       <description>搬来搬去，还是想有自己的地方，于是到这里来了
 学习网址  BLOCKCHAIN FOR DEVELOPERS 官方网址 已不可用   这个网址是ibm给的测试网址，注册进去就可以设置4个节点的区块链，而且有智能合约可以测试   区块链和HyperLedger开源技术讲堂 最好的入门视频教程
  hyperledger-fabric 官方文档 需要通读
@@ -94,10 +94,10 @@ IPFS 是一种新颖的对等版本控制的文件系统，旨在调和这些问
     
     <item>
       <title>Hello Hugo</title>
-      <link>https://nerd010.github.io/post/first/</link>
+      <link>https://nerd010.github.io/post/2018-03-24-first/</link>
       <pubDate>Sat, 24 Mar 2018 23:35:22 +0800</pubDate>
       <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/post/first/</guid>
+      <guid>https://nerd010.github.io/post/2018-03-24-first/</guid>
       <description>Hello Hugo 折腾了一周多的时间，现在终于可以用了。暂时没用 wercker，官方文档说得也是比较明白。
 最开始也是在自己的 VPS 上用 wordpress 上搞的。整体也整理好了。当我想换个主题时就发现很麻烦，然后就开始找有没有一种搭建个人博客的方式是更简单，更便于管理和修改主题的。先是找到了 Jekyll, 然后就找到了 Hexo 和 Hugo，最后决定定居在 Hugo。
 Jekyll 是最早开始流行的静态网站构建工具，使用 Ruby 语言开发，开源已有 10 个年头了，是 Github Pages 默认的静态网站构建工具。当前互联网上有大量基于 Jekyll 构建的静态网站，包括现在流行的开源容器编排高度引擎 kubernetes 的官网。

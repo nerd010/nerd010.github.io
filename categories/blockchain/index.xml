@@ -15,10 +15,10 @@
     
     <item>
       <title>IPFS</title>
-      <link>https://nerd010.github.io/post/ipfs/</link>
+      <link>https://nerd010.github.io/post/2018-04-04-ipfs/</link>
       <pubDate>Wed, 04 Apr 2018 18:00:40 +0800</pubDate>
       <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/post/ipfs/</guid>
+      <guid>https://nerd010.github.io/post/2018-04-04-ipfs/</guid>
       <description>IPFS 这篇文章的原文是在 Gavin的博客 读下来后不是很懂。感觉中文的有些生硬和不好理解的地方，记录一下，继续研究。
 摘要  星际文件系统是一种点对点的分布式文件系统, 旨在连接所有有相同的文件系统的计算机设备而IPFS是一个单一的Bittorrent 群集， 用git 仓库分布式存储 IPFS 提供了高吞吐量的内容寻址块存储模型， 具有内容寻址的超链接 IPFS 结合了分布式哈希表,带有激励机制的块交换和自我认证命名空间 IPFS 没有单故障点， 节点不需要相互信任  介绍 在学术尝试中
  AFS【6】 AFS【7】  Napster, KaZaA 和BitTorrent[2]部署的文件分发系统支持1亿用户的同时在线
