@@ -8,10 +8,25 @@
     <language>en-us</language>
     <managingEditor>markwang559@gmail.com (smallX)</managingEditor>
     <webMaster>markwang559@gmail.com (smallX)</webMaster>
-    <lastBuildDate>Mon, 21 May 2018 22:41:18 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 22:22:27 +0800</lastBuildDate>
     
 	<atom:link href="https://nerd010.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018 06 07 K8s Deploy</title>
+      <link>https://nerd010.github.io/post/2018-06-07-k8s-deploy/</link>
+      <pubDate>Thu, 07 Jun 2018 22:22:27 +0800</pubDate>
+      <author>markwang559@gmail.com (smallX)</author>
+      <guid>https://nerd010.github.io/post/2018-06-07-k8s-deploy/</guid>
+      <description>部署 Kubernetes 阿里云有提供一套可用的 k8s，如果自己部署的话就不需要再依赖于阿里云相关文档中所要求的环境。
+准备工作  运行 deb/rpm 兼容操作系统的一台或多台机器，例如 Ubuntu 或 CentOS 每台机器 2GB 或更多内存 master 上的 CPU 要求 2 核或以上 集群中所有机器（公用或专用网络都可以）的网络都是可连通的  安装 kubeadm 准备工作  操作系统为 Ubuntu 16.04+
+ 禁用 Swap。为了让 kubelet 正常工作你必须禁用 swap。
+  安装 Docker 在你的每一台机器上安装 Docker。建议使用的版本号为 17.03。而 1.11， 1.12 和 1.13 是可以正常使用的。17.06+ 可以用，但是 Kubernetes 团队还没有测试和验证。
+如果你已经安装了要求的 Docker 版本，你可以进入下一部分了。如果没有，请用下面的命令安装 Docker。
+apt-get update apt-get install -y docker.io  或者安装 Docker CE 17.03
+apt-get update apt-get install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.</description>
+    </item>
     
     <item>
       <title>2018 05 21 IPFS README</title>

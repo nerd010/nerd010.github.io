@@ -34,7 +34,7 @@
     <div class="sidebar-about">
       <a href="https://nerd010.github.io/"><h1>MCoder Blog</h1></a>
       <p class="lead">
-      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      To improve is to change, to be perfect is to change often 
       </p>
     </div>
 
@@ -43,13 +43,32 @@
       
     </ul>
 
-    <p>&copy; 2018. All rights reserved. </p>
+    <p>&copy; 程序员, 旅游，摄影，宅，电子设备，美剧, 电影，有点洁癖
+C, C++, Objective-C, Swift,
+Java, Golang, Node.js, Python, Docker </p>
   </div>
 </div>
 
     <div class="content container">
     <div class="posts">
 <div class="post">
+  <h1 class="post-title">
+    <a href="https://nerd010.github.io/post/2018-06-07-k8s-deploy/">2018 06 07 K8s Deploy</a>
+  </h1>
+  <span class="post-date">Thu, Jun 7, 2018</span>
+  部署 Kubernetes 阿里云有提供一套可用的 k8s，如果自己部署的话就不需要再依赖于阿里云相关文档中所要求的环境。
+准备工作  运行 deb/rpm 兼容操作系统的一台或多台机器，例如 Ubuntu 或 CentOS 每台机器 2GB 或更多内存 master 上的 CPU 要求 2 核或以上 集群中所有机器（公用或专用网络都可以）的网络都是可连通的  安装 kubeadm 准备工作  操作系统为 Ubuntu 16.04+
+ 禁用 Swap。为了让 kubelet 正常工作你必须禁用 swap。
+  安装 Docker 在你的每一台机器上安装 Docker。建议使用的版本号为 17.03。而 1.11， 1.12 和 1.13 是可以正常使用的。17.06+ 可以用，但是 Kubernetes 团队还没有测试和验证。
+如果你已经安装了要求的 Docker 版本，你可以进入下一部分了。如果没有，请用下面的命令安装 Docker。
+apt-get update apt-get install -y docker.io  或者安装 Docker CE 17.03
+apt-get update apt-get install -y apt-transport-https ca-certificates curl software-properties-common curl -fsSL https://download.
+  
+  <div class="read-more-link">
+    <a href="/post/2018-06-07-k8s-deploy/">Read More…</a>
+  </div>
+  
+</div><div class="post">
   <h1 class="post-title">
     <a href="https://nerd010.github.io/post/2018-05-21-ipfs-readme/">2018 05 21 IPFS README</a>
   </h1>
