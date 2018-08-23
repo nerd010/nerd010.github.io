@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="generator" content="Hugo 0.47.1" />
+  <meta name="author" content="MCoder">
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,700%7cOpen&#43;Sans:400,400italic,700%7cRoboto&#43;Mono%25!%28EXTRA%20*hugolib.PageOutput=Page%28/blog/2018-03-29-Hyperledger_Fabric_%e7%9b%b8%e5%85%b3%e6%96%87%e6%a1%a3.md%29%29">
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://nerd010.github.io/index.xml" type="application/rss+xml" title="MCoder Blog">
+  <link rel="feed" href="https://nerd010.github.io/index.xml" type="application/rss+xml" title="MCoder Blog">
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://nerd010.github.io/blog/2018-03-29-hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@Richard_wzk">
+  <meta property="twitter:creator" content="@Richard_wzk">
+  
+  <meta property="og:site_name" content="MCoder Blog">
+  <meta property="og:url" content="https://nerd010.github.io/blog/2018-03-29-hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/">
+  <meta property="og:title" content="Hyperledger_Fabric_相关文档 | MCoder Blog">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-03-29T13:18:53&#43;08:00">
+  
+  <meta property="article:modified_time" content="2018-03-29T13:18:53&#43;08:00">
+  
+
+  <title>Hyperledger_Fabric_相关文档 | MCoder Blog</title>
+
+  
+
+</head>
+<body>
+
+<style type="text/css">
+
+.masthead-hero {
+  background-image: url("https://nerd010.github.io/img/hero.jpg");
+}
+</style>
+
+<div class="masthead-hero"></div>
+
+<div id="main" role="main">
+  <div class="sidebar sticky" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <div class="author-avatar">
+    <a href="/">
+      <img src="/img/portrait.jpg" alt="Joshua Hu" itemprop="image">
+    </a>
+  </div>
+  <div class="author-content">
+    <h3 class="author-name" itemprop="name">MCoder</h3>
+    <p class="author-bio" itemprop="description">Get More From Life</p>
+  </div>
+  <div class="author-urls-wrapper">
+    <ul class="author-urls social-icons" aria-hidden="true">
+      <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name">Beijing</span>
+      </li>
+      
+      <li>
+        <a itemprop="sameAs" href="//instagram.com/markwang559" target="_blank" rel="noopener">
+          <i class="fa fa-instagram"></i>
+          Instagram
+        </a>
+      </li>
+      
+      <li>
+        <a itemprop="sameAs" href="//twitter.com/Richard_wzk" target="_blank" rel="noopener">
+          <i class="fa fa-twitter"></i>
+          Twitter
+        </a>
+      </li>
+      
+      <li>
+        <a itemprop="sameAs" href="//github.com/nerd010" target="_blank" rel="noopener">
+          <i class="fa fa-github"></i>
+          Github
+        </a>
+      </li>
+      
+      <li>
+        <a itemprop="sameAs" href="//jianshu.com/u/0b36d5e1b5fb" target="_blank" rel="noopener">
+          <i class="fa fa-jianshu"></i>
+          JianShu
+        </a>
+      </li>
+      
+    </ul>  
+  </div>
+</div>
+  <article class="page">
+		<div class="page_container">
+			<section class="page_content">
+				<div class="navbar-hero">
+	<nav>
+		<a href="/">Home</a>&nbsp&nbsp•&nbsp&nbsp
+		<a href="/projects">Projects</a>&nbsp&nbsp•&nbsp&nbsp
+		<a href="/blog">Blog</a>&nbsp&nbsp•&nbsp&nbsp
+		<a href="/about">About</a>
+	</nav>
+</div>
+				<article class="post" itemscope itemtype="http://schema.org/Article">
+  <div class="post-container">
+    <h1 itemprop="name"><a href="https://nerd010.github.io/blog/2018-03-29-hyperledger_fabric_%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3/">Hyperledger_Fabric_相关文档</a></h1>
+
+    
+      
+
+<div class="post-metadata">
+
+  <span class="post-date">
+    
+    <time datetime="2018-03-29 13:18:53 &#43;0800 CST" itemprop="datePublished dateModified">
+      Mar 29, 2018
+    </time>
+  </span>
+
+  
+
+</div>
+
+    
+
+    <div class="post-style" itemprop="articleBody">
+      
+
+<p>搬来搬去，还是想有自己的地方，于是到这里来了</p>
+
+<h3 id="学习网址">学习网址</h3>
+
+<ol>
+<li><a href="https://crl.ptopenlab.com%3A8800/bc/" target="_blank">BLOCKCHAIN FOR DEVELOPERS 官方网址</a> <strong>已不可用</strong></li>
+</ol>
+
+<ul>
+<li>这个网址是ibm给的测试网址，注册进去就可以设置4个节点的区块链，而且有智能合约可以测试</li>
+</ul>
+
+<ol>
+<li><p><a href="http://ibm.biz/opentech-ma" target="_blank">区块链和HyperLedger开源技术讲堂</a> 最好的入门视频教程</p></li>
+
+<li><p><a href="http://hyperledger-fabric.readthedocs.io/en/latest/" target="_blank">hyperledger-fabric 官方文档</a> 需要通读</p></li>
+
+<li><p><a href="https://www.hyperledger.org/" target="_blank">hyperledger 官网</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric" target="_blank">GitHub hyperledger/fabric</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric-sdk-node" target="_blank">GitHub hyperledger/fabric-sdk-node</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric-sdk-java" target="_blank">GitHub hyperledger/fabric-sdk-java</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric-sdk-go" target="_blank">fabric-sdk-go</a></p></li>
+
+<li><p><a href="https://yeasy.gitbooks.io/hyperledger_code_fabric/content/overview.html" target="_blank">Fabric 1.0 源码分析</a></p></li>
+
+<li><p><a href="https://github.com/yeasy/docker-compose-files/issues/12" target="_blank">搜索疑难问题链接</a></p></li>
+
+<li><p><a href="https://gerrit.hyperledger.org/r/%23/admin/projects/" target="_blank">fabric 代码库</a></p></li>
+
+<li><p><a href="https://jira.hyperledger.org/projects/FAB/issues/FAB-2666%3Ffilter%3Dallopenissues" target="_blank">hypeledger 开发进展</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric/blob/master/docs/source/Setup/JAVAChaincode.rst" target="_blank">java智能合约部署与开发</a></p></li>
+
+<li><p><a href="https://docs.google.com/document/d/1R5RtIBMW9fZpli37E5Li5_Q9ve3BnQ4q3gWmGZj6Sv4/edit%23heading%3Dh.4p7xi5bvhxdr" target="_blank">api网址</a></p></li>
+
+<li><p><a href="http://link.zhihu.com/?target=http%3A//fabric-nick-docs.readthedocs.io/en/latest/overview/" target="_blank">Overview - Hyperledger Fabric</a></p></li>
+
+<li><p><a href="http://link.zhihu.com/?target=https%3A//github.com/IBM-Blockchain" target="_blank">IBM Blockchain</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric" target="_blank">hyperledger/fabric</a></p></li>
+
+<li><p><a href="https://chat.hyperledger.org/channel/fabric" target="_blank">chat.hyperledger.org</a></p></li>
+
+<li><p><a href="https://gerrit.hyperledger.org/" target="_blank">Gerrit Code Review</a></p></li>
+
+<li><p><a href="https://jenkins.hyperledger.org/" target="_blank">00-Empty View [Jenkins]</a></p></li>
+
+<li><p><a href="http://wutongtree.github.io/translations/" target="_blank">部分翻译文章</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric/tree/master/docs/source/Setup" target="_blank">网络部署</a></p></li>
+
+<li><p><a href="https://hyperledger-fabric-ca.readthedocs.io/en/latest/users-guide.html" target="_blank">Fabric CA 用户指南</a> 新</p></li>
+</ol>
+
+<h3 id="其他网址">其他网址</h3>
+
+<p>1.<a href="http://hyperledger-fabric.readthedocs.io/en/latest/dev-setup/devenv.html" target="_blank">DEV ENV Setup</a></p>
+
+<p> <a href="https://github.com/hyperledger/fabric/blob/master/examples/e2e_cli/end-to-end.rst" target="_blank">end-to-end.rst</a></p>
+
+<p> <a href="https://zhuanlan.zhihu.com/p/25849348?utm_medium=social&amp;utm_source=wechat_timeline&amp;from=groupmessage&amp;isappinstalled=1" target="_blank">fabric1.0快速部署</a></p>
+
+<ol>
+<li><p><a href="http://www.jianshu.com/p/a7df2c1c30d4" target="_blank">Fabric 的示意图片汇总</a></p></li>
+
+<li><p><a href="https://sanwen8.cn/p/56ciGDR.html" target="_blank">Fabric 开发环境搭建</a></p></li>
+
+<li><p><a href="http://www.cnblogs.com/huyouhengbc/p/5934683.html" target="_blank">Hyperledger 智能合约 Hello World 示例程序</a></p></li>
+
+<li><p><a href="http://www.cnblogs.com/huyouhengbc/p/6012986.html" target="_blank">本文介绍了在IBM Bluemix上部署Hyperledger应用的基本过程</a></p></li>
+
+<li><p><a href="https://zhuanlan.zhihu.com/p/25070745" target="_blank">开发环境入门</a></p></li>
+
+<li><p><a href="http://www.codedq.net/blog/articles/163.html" target="_blank">区块链的相关名词解释</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric/blob/master/proposals/r1/Next-Consensus-Architecture-Proposal.md" target="_blank">区块链基础设施的架构</a></p></li>
+
+<li><p><a href="http://blog.csdn.net/zxzxzxzx2121/article/details/53034151" target="_blank">HyperLedger Fabric协议规范</a></p></li>
+
+<li><p><a href="http://wutongtree.github.io/translations/Next-Consensus-Architecture-Proposal_zh" target="_blank">下一代Consensus 架构提案</a></p></li>
+
+<li><p><a href="https://github.com/hyperledger/fabric/tree/master/orderer" target="_blank">Hyperledger Ordering Service</a></p></li>
+</ol>
+
+<h3 id="图书">图书</h3>
+
+<ol>
+<li><p><a href="http://bitcoin-on-nodejs.ebookchain.org/" target="_blank">Node.js开发加密货币</a></p></li>
+
+<li><p><a href="https://yeasy.gitbooks.io/blockchain_guide/content/" target="_blank">区块链技术指南，内容非常丰富</a></p></li>
+
+<li><p><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md" target="_blank">Go 语言学习</a></p></li>
+
+<li><p><a href="https://github.com/yeasy/docker_practice" target="_blank">Docker Practice</a></p></li>
+
+<li><p><a href="https://wizardforcel.gitbooks.io/gopl-zh/content/" target="_blank">The Go Programming Language》中文版本</a></p></li>
+
+<li><p><a href="http://nodebeginner.org/index-zh-cn.html" target="_blank">Node入门</a></p></li>
+
+<li><p><a href="https://yeasy.gitbooks.io/docker_practice/content/image/build.html" target="_blank">Docker 入门到实践</a></p></li>
+
+<li><p><a href="https://yeasy.gitbooks.io/hyperledger_code_fabric/overview.html" target="_blank">hyperLedger 结构分析</a></p></li>
+
+<li><p>《Bitcoin: A Peer-to-Peer Electronic Cash System》</p></li>
+</ol>
+
+<blockquote>
+<p>中本聪，作为比特币系统的设计者和创造者，TA 对于比特币系统最初的设计思路都在这短短的一篇论文中。无论何时去看这边论文，你都会或多或少有所收获，非常值得阅读。一共就 9 页，可以尝试着读完</p>
+</blockquote>
+
+<ol>
+<li>《Mastering Bitcoin》</li>
+</ol>
+
+<blockquote>
+<p>这本书毋庸置疑的将成为你应该阅读的第一本比特币技术类的数据，它由浅入深将比特币从钱包的 cli 命令，到协议分析，到钱包的类型一一做了介绍，并且还会在必要的部分提供一些代码，便于读者去理解比特币的运作方式。这应该是我第二次正式的以文字的方式推荐此书了。并且本书除了英文版本，还有社区维护的简体中文版本，这对于国内的开发者来说是一个福音。（当然，我还是推荐你再看一遍英文版本）</p>
+</blockquote>
+
+<h3 id="白皮书">白皮书</h3>
+
+<ol>
+<li><p><a href="http://ebookchain.org/ebookchain.pdf" target="_blank">亿书白皮书</a></p></li>
+
+<li><p><a href="http://8btc.com/doc-view-605.html" target="_blank">超级账本Hyperledger白皮书（中文版）</a></p></li>
+
+<li><p><a href="https://github.com/AntShares/AntShares/wiki/%25E7%2599%25BD%25E7%259A%25AE%25E4%25B9%25A6-1.1" target="_blank">小蚁白皮书</a></p></li>
+
+<li><p><a href="http://wutongtree.github.io/NXT%25E7%2599%25BD%25E7%259A%25AE%25E4%25B9%25A6%25E4%25B8%25AD%25E6%2596%2587%25E8%25AF%2591%25E6%259C%25AC.pdf" target="_blank">http://wutongtree.github.io/NXT白皮书中文译本.pdf</a></p></li>
+</ol>
+
+    </div>
+
+    
+      
+
+    
+
+    
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Hyperledger_Fabric_%e7%9b%b8%e5%85%b3%e6%96%87%e6%a1%a3&amp;url=https%3a%2f%2fnerd010.github.io%2fblog%2f2018-03-29-hyperledger_fabric_%25E7%259B%25B8%25E5%2585%25B3%25E6%2596%2587%25E6%25A1%25A3%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnerd010.github.io%2fblog%2f2018-03-29-hyperledger_fabric_%25E7%259B%25B8%25E5%2585%25B3%25E6%2596%2587%25E6%25A1%25A3%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnerd010.github.io%2fblog%2f2018-03-29-hyperledger_fabric_%25E7%259B%25B8%25E5%2585%25B3%25E6%2596%2587%25E6%25A1%25A3%2f&amp;title=Hyperledger_Fabric_%e7%9b%b8%e5%85%b3%e6%96%87%e6%a1%a3"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Hyperledger_Fabric_%e7%9b%b8%e5%85%b3%e6%96%87%e6%a1%a3&amp;body=https%3a%2f%2fnerd010.github.io%2fblog%2f2018-03-29-hyperledger_fabric_%25E7%259B%25B8%25E5%2585%25B3%25E6%2596%2587%25E6%25A1%25A3%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    
+
+    
+      
+
+    
+
+  </div>
+</article>
+			</section>
+		</div>
+	</article>
+</div> 
+
+<div class="page_footer">
+	<p>&copy; Joshua Hu 2018. Powered by <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/jhu247/minimal-academic">Minimal Academic</a>.</p>
+</div>
+    
+    
+
+
+  </body>
+</html>

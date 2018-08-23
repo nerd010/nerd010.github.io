@@ -5,22 +5,10 @@
     <link>https://nerd010.github.io/categories/</link>
     <description>Recent content in Categories on MCoder Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <managingEditor>markwang559@gmail.com (smallX)</managingEditor>
-    <webMaster>markwang559@gmail.com (smallX)</webMaster>
-    <lastBuildDate>Wed, 04 Apr 2018 18:00:40 +0800</lastBuildDate>
+    <copyright>&amp;copy; Joshua Hu 2018</copyright>
     
 	<atom:link href="https://nerd010.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blockchain</title>
-      <link>https://nerd010.github.io/categories/blockchain/</link>
-      <pubDate>Wed, 04 Apr 2018 18:00:40 +0800</pubDate>
-      <author>markwang559@gmail.com (smallX)</author>
-      <guid>https://nerd010.github.io/categories/blockchain/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
