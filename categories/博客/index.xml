@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>博客 - 分类 - 简闻</title>
+        <link>https://nerd010.github.io/categories/%E5%8D%9A%E5%AE%A2/</link>
+        <description>博客 - 分类 - 简闻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>markwang559@gmail.com ( 简闻)</managingEditor>
+            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Sat, 24 Mar 2018 15:32:19 &#43;0800</lastBuildDate><atom:link href="https://nerd010.github.io/categories/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
+    <title>About Blog</title>
+    <link>https://nerd010.github.io/about-blog/</link>
+    <pubDate>Sat, 24 Mar 2018 15:32:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/about-blog/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" referrerpolicy="no-referrer">
+            </div>Hello Hugo Hello Hugo 折腾了一周多的时间，现在终于可以用了。暂时没用 wercker，官方文档说得也是比较明白。 最开始也是在自己的 VPS 上用 wordpress 上搞的。整体也整理]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>IPFS Summary - 简闻</title><meta name="Description" content="Get More From Life"><meta property="og:title" content="IPFS Summary" />
+<meta property="og:description" content="IPFS Summary Summary Introduction Introduction 第 1 章：安装和初始化 IPFS 简介 下载和安装 IPFS 初始化你的 IPFS 仓库 第 2 章: IPFS 中的文件 简介 上传文件到 IPFS 并检索它 打包有关内容的文件名与目录信息 Pinning –" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nerd010.github.io/ipfs-summary/" /><meta property="og:image" content="https://nerd010.github.io/static/images/logo.JPG"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-05-21T15:32:19+08:00" />
+<meta property="article:modified_time" content="2021-06-23T09:44:25+08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nerd010.github.io/static/images/logo.JPG"/>
+
+<meta name="twitter:title" content="IPFS Summary"/>
+<meta name="twitter:description" content="IPFS Summary Summary Introduction Introduction 第 1 章：安装和初始化 IPFS 简介 下载和安装 IPFS 初始化你的 IPFS 仓库 第 2 章: IPFS 中的文件 简介 上传文件到 IPFS 并检索它 打包有关内容的文件名与目录信息 Pinning –"/>
+<meta name="application-name" content="简闻">
+<meta name="apple-mobile-web-app-title" content="简闻"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nerd010.github.io/ipfs-summary/" /><link rel="prev" href="https://nerd010.github.io/the-little-book-of-productivity/" /><link rel="next" href="https://nerd010.github.io/ipfs-readme/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "IPFS Summary",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nerd010.github.io\/ipfs-summary\/"
+        },"genre": "posts","keywords": "blc, IPFS","wordcount":  732 ,
+        "url": "https:\/\/nerd010.github.io\/ipfs-summary\/","datePublished": "2018-05-21T15:32:19+08:00","dateModified": "2021-06-23T09:44:25+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Zk"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="简闻">简闻</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="简闻">简闻</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">IPFS Summary</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Zk</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"><i class="far fa-folder fa-fw"></i>区块链</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2018-05-21">2018-05-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 732 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80"
+        data-srcset="https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80, https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80 1.5x, https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80 2x"
+        data-sizes="auto"
+        alt="https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80"
+        title="https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80" /></div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#第-1-章安装和初始化-ipfs">第 1 章：安装和初始化 IPFS</a></li>
+    <li><a href="#第-2-章-ipfs-中的文件">第 2 章: IPFS 中的文件</a></li>
+    <li><a href="#第-3-章网络在线--加入分布式-web">第 3 章：网络在线 – 加入分布式 Web</a></li>
+    <li><a href="#第-4-章与经典http网络交互">第 4 章：与经典（HTTP）网络交互</a></li>
+    <li><a href="#第-5-章访问和分发-ipfs-的多种方式">第 5 章：访问和分发 IPFS 的多种方式</a></li>
+    <li><a href="#第-6-章在-permanent-web-上发布更改">第 6 章：在 Permanent Web 上发布更改</a></li>
+    <li><a href="#第-7-章分布式-web-上的隐私和访问权限控制">第 7 章：分布式 Web 上的隐私和访问权限控制</a></li>
+    <li><a href="#第-8-章保持数据活跃常驻permanent-web-上的可持续数据">第 8 章：保持数据活跃：常驻(permanent) Web 上的可持续数据</a></li>
+    <li><a href="#第-9-章merkle-trees-和-ipfs-dag">第 9 章：Merkle Trees 和 IPFS DAG</a></li>
+    <li><a href="#第-10-章在-ipfs-上的动态内容">第 10 章：在 IPFS 上的动态内容</a></li>
+    <li><a href="#第-11-章分布式计算">第 11 章：分布式计算</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>IPFS Summary</p>
+<h1 id="summary">Summary</h1>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li><a href="README.md" rel="">Introduction</a></li>
+</ul>
+<h2 id="第-1-章安装和初始化-ipfs">第 1 章：安装和初始化 IPFS</h2>
+<ul>
+<li><a href="part1/README.md" rel="">简介</a></li>
+<li><a href="part1/1-1.md" rel="">下载和安装 IPFS</a></li>
+<li><a href="part1/1-2.md" rel="">初始化你的 IPFS 仓库</a></li>
+</ul>
+<h2 id="第-2-章-ipfs-中的文件">第 2 章: IPFS 中的文件</h2>
+<ul>
+<li><a href="part2/README.md" rel="">简介</a></li>
+<li><a href="part2/2-1.md" rel="">上传文件到 IPFS 并检索它</a></li>
+<li><a href="part2/2-2.md" rel="">打包有关内容的文件名与目录信息</a></li>
+<li><a href="part2/2-3.md" rel="">Pinning – 告诉 IPFS 保留文件</a></li>
+</ul>
+<h2 id="第-3-章网络在线--加入分布式-web">第 3 章：网络在线 – 加入分布式 Web</h2>
+<ul>
+<li><a href="part3/README.md" rel="">简介</a></li>
+<li><a href="part3/3-1.md" rel="">在 IPFS 网络上发布您的节点</a></li>
+<li><a href="part3/3-2.md" rel="">在网络上寻找 Peers</a></li>
+<li><a href="part3/3-3.md" rel="">从一个 Peer(节点) 中检索内容</a></li>
+</ul>
+<h2 id="第-4-章与经典http网络交互">第 4 章：与经典（HTTP）网络交互</h2>
+<ul>
+<li><a href="part3/README.md" rel="">简介</a></li>
+<li><a href="part4/4-1.md" rel="">使用 HTTP 浏览器从本地 IPFS 网关检索文件</a></li>
+<li><a href="part4/4-2.md" rel="">通过公共的 ipfs.io 网关获取文件内容</a></li>
+<li><a href="part4/4-3.md" rel="">通过任意 IPFS 网关访问 IPFS 的内容</a></li>
+<li><a href="part4/4-4.md" rel="">TODO 将 DNS 映射到 IPNS</a></li>
+<li><a href="part4/4-5.md" rel="">TODO 在 IPFS 上的流媒体视频</a></li>
+</ul>
+<h2 id="第-5-章访问和分发-ipfs-的多种方式">第 5 章：访问和分发 IPFS 的多种方式</h2>
+<ul>
+<li><a href="part5/README.md" rel="">简介</a></li>
+<li><a href="part5/5-1.md" rel="">内容寻址的能力</a></li>
+<li><a href="part5/5-2.md" rel="">从一个 Peer(节点) 中检索内容</a></li>
+<li><a href="part5/5-3.md" rel="">阅读关于与经典(HTTP) 网络交互的教程</a>
+<ul>
+<li><a href="part5/5-3-1.md" rel="">使用 HTTP 浏览器从本地 IPFS 网关检索文件</a></li>
+<li><a href="part5/5-3-2.md" rel="">在 ipfs.io 上使用公共 IPFS 网关</a></li>
+<li><a href="part5/5-3-3.md" rel="">通过任意 IPFS 网关访问 IPFS 的内容</a></li>
+</ul>
+</li>
+<li><a href="part5/5-4.md" rel="">通过 Tor 网关访问 IPFS 内容（实验性）</a></li>
+<li><a href="part5/5-5.md" rel="">通过 Tor transport 运行 IPFS</a></li>
+<li><a href="part5/5-6.md" rel="">通过浏览器插件访问 IPFS 内容</a></li>
+<li><a href="part5/5-7.md" rel="">Sneakernets – 移动 USB 驱动器和其它硬件上的数据</a></li>
+</ul>
+<h2 id="第-6-章在-permanent-web-上发布更改">第 6 章：在 Permanent Web 上发布更改</h2>
+<ul>
+<li><a href="part6/README.md" rel="">简介</a></li>
+<li><a href="part6/6-1.md" rel="">在 IPFS节点上设置 IPNS</a></li>
+<li><a href="part6/6-2.md" rel="">创建一个指向你的文件的 IPNS 条目</a></li>
+<li><a href="part6/6-3.md" rel="">修改你的文件并将修改后的版本添加到 IPFS</a></li>
+<li><a href="part6/6-4.md" rel="">更新 IPNS 条目以指向新和版本</a></li>
+</ul>
+<h2 id="第-7-章分布式-web-上的隐私和访问权限控制">第 7 章：分布式 Web 上的隐私和访问权限控制</h2>
+<ul>
+<li><a href="part7/README.md" rel="">简介</a></li>
+<li><a href="part7/7-1.md" rel="">读者隐私和写作者的隐私</a></li>
+<li><a href="part7/7-2.md" rel="">专用(private)网络</a></li>
+<li><a href="part7/7-3.md" rel="">加密内容</a></li>
+<li><a href="part7/7-3.md" rel="">更多的动态加密：基于能力的加密</a></li>
+<li><a href="part7/7-4.md" rel="">与经典 HTTP 网站相比（封建(feudal)安全等）</a></li>
+</ul>
+<h2 id="第-8-章保持数据活跃常驻permanent-web-上的可持续数据">第 8 章：保持数据活跃：常驻(permanent) Web 上的可持续数据</h2>
+<ul>
+<li><a href="part8/README.md" rel="">简介</a></li>
+<li><a href="part8/8-1.md" rel="">IPFS 集群</a></li>
+<li><a href="part8/8-2.md" rel="">Filecoin</a></li>
+</ul>
+<h2 id="第-9-章merkle-trees-和-ipfs-dag">第 9 章：Merkle Trees 和 IPFS DAG</h2>
+<ul>
+<li><a href="part9/README.md" rel="">简介</a></li>
+<li><a href="part8/8-1.md" rel="">将文件转换成哈希树</a></li>
+<li><a href="part8/8-2.md" rel="">创建一个加密哈希</a></li>
+<li><a href="part8/8-3.md" rel="">在 IPFS 中使用加密哈希来链接这些碎片（Merkle DAG）</a></li>
+<li><a href="part8/8-4.md" rel="">探索使用哈希树来跟踪数据的软件类型</a></li>
+</ul>
+<h2 id="第-10-章在-ipfs-上的动态内容">第 10 章：在 IPFS 上的动态内容</h2>
+<ul>
+<li><a href="part10/README.md" rel="">简介</a></li>
+<li><a href="part10/10-1.md" rel="">免责声明：IPFS 上的动态内容是一项正在进行的工作</a></li>
+<li><a href="part10/10-2.md" rel="">将数据添加到 DAG（本地）</a></li>
+<li><a href="part10/10-3.md" rel="">将你的更改告诉 Peers</a></li>
+<li><a href="part10/10-4.md" rel="">使用哈希来从 IPFS 上获取他人的修改</a></li>
+<li><a href="part10/10-5.md" rel="">使用发布订阅策略来传递有关修改的消息</a></li>
+</ul>
+<h2 id="第-11-章分布式计算">第 11 章：分布式计算</h2>
+<ul>
+<li><a href="part11/README.md" rel="">简介</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-06-23</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/ipfs-summary/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://nerd010.github.io/ipfs-summary/" data-title="IPFS Summary" data-via="Richard_wzk" data-hashtags="blc,IPFS"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://nerd010.github.io/ipfs-summary/" data-title="IPFS Summary" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://nerd010.github.io/ipfs-summary/" data-title="IPFS Summary"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/blc/">blc</a>,&nbsp;<a href="/tags/ipfs/">IPFS</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/the-little-book-of-productivity/" class="prev" rel="prev" title="超效率手册"><i class="fas fa-angle-left fa-fw"></i>超效率手册</a>
+            <a href="/ipfs-readme/" class="next" rel="next" title="IPFS README">IPFS README<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Life Short! Be Fun!</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2018 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"> 简闻</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

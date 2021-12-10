@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>IPFS - 标签 - 简闻</title>
+        <link>https://nerd010.github.io/tags/ipfs/</link>
+        <description>IPFS - 标签 - 简闻</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>markwang559@gmail.com ( 简闻)</managingEditor>
+            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Mon, 21 May 2018 15:32:19 &#43;0800</lastBuildDate><atom:link href="https://nerd010.github.io/tags/ipfs/" rel="self" type="application/rss+xml" /><item>
+    <title>IPFS README</title>
+    <link>https://nerd010.github.io/ipfs-readme/</link>
+    <pubDate>Mon, 21 May 2018 15:32:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/ipfs-readme/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1456428746267-a1756408f782?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=3300&amp;q=80" referrerpolicy="no-referrer">
+            </div>IPFS README 简介 从 gitbook 上发现了这本书的英文版，所以想把它翻遍成中文版，如果你有兴趣，可以一起:), 目前仅做学习交流用。只有晚上有时间更新。 这份简介包括]]></description>
+</item><item>
+    <title>IPFS Summary</title>
+    <link>https://nerd010.github.io/ipfs-summary/</link>
+    <pubDate>Mon, 21 May 2018 15:32:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/ipfs-summary/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1507123948929-86a949bdaa23?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1886&amp;q=80" referrerpolicy="no-referrer">
+            </div>IPFS Summary Summary Introduction Introduction 第 1 章：安装和初始化 IPFS 简介 下载和安装 IPFS 初始化你的 IPFS 仓库 第 2 章: IPFS 中的文件 简介 上传文件到 IPFS 并检索它 打包有关内容的文件名与目录信息 Pinning –]]></description>
+</item><item>
+    <title>IPFS</title>
+    <link>https://nerd010.github.io/ipfs/</link>
+    <pubDate>Wed, 04 Apr 2018 16:40:20 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/ipfs/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1530333821974-f9fcfd6718c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" referrerpolicy="no-referrer">
+            </div>IPFS 这篇文章的原文是在 Gavin的博客 读下来后不是很懂。感觉中文的有些生硬和不好理解的地方，记录一下，继续研究。 摘要 星际文件系统是一种点对点的]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,43 @@
+# 加密数字货币白皮书
+
+
+
+加密数字货币白皮书
+
+
+*   [POWER LEDGER 中文](https://tge.powerledger.io/media/Power-Ledger-Whitepaper-Chinese.pdf)
+*   [POWER LEDGER 英文](https://powerledger.io/media/Power-Ledger-Whitepaper-v8.pdf)
+*   [比特币白皮书](http://doc.xueqiu.com/142ae3a66341bf3fe1c5330f.pdf)
+*   [以太坊](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
+*   [量子链](https://qtum.org/zh/white-papers)
+*   [零币](http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf)
+*   [ICOCION](https://pan.baidu.com/s/1cpO9Fw)
+*   [比特股](http://www.8btc.com/wp-content/uploads/2013/09/BitShares_White_Paper20130911.pdf)
+*   [比原链](https://github.com/Bytom/wiki/wiki/%E6%AF%94%E5%8E%9F%E9%93%BE%E6%8A%80%E6%9C%AF%E7%99%BD%E7%9A%AE%E4%B9%A6-%E4%B8%AD%E6%96%87%E7%89%88)
+*   [瑞资链](http://oqg7yooow.bkt.clouddn.com/%E7%91%9E%E8%B5%84%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+*   [点点币](http://pan.baidu.com/s/1o7Xjqrg)
+*   [元宝币](http://www.ybcoin.com/files/New_YBCoin_Whitepaper_cn.pdf)
+*   [质数币](http://8btc.com/thread-758-1-1.html)
+*   [未来币](http://www.coinfeed.net/cn/information/nextcoin/未来币nxt白皮书修订版.html)
+*   [瑞波币](https://pan.baidu.com/s/1jI85kMi)
+*   [小蚁](http://pan.baidu.com/s/1jIoSvIY)
+*   [达世币](http://www.8btc.com/dash-whitepaper)
+*   [BAT](https://basicattentiontoken.org/index_1/BasicAttentionTokenWhitePaper_ZH.pdf)
+*   [彩色币](http://8btc.com/thread-3207-1-1.html)
+*   [以太经典](https://ethereumclassic.github.io/assets/etc-thesis.pdf)
+*   [印链](http://pan.baidu.com/s/1kVeaZaR)
+*   [元界](http://newmetaverse.org/white-paper/Metaverse-white-paper-v2.1-CN.pdf)
+*   [元界数字身份认证](http://newmetaverse.org/white-paper/Metaverse-digital-identity-white-paper-v1.0-CN.pdf)
+*   [ZENGOLD](http://xinyuanjie.org/white-paper/ZenGold-white-paper-CN.pdf)
+*   [房地产代币](https://pan.baidu.com/s/1hsikQ5u)
+*   [EOS](https://pan.baidu.com/s/1hsL0xe8)
+*   [DHG](https://pan.baidu.com/s/1qY2TruW)
+*   [Starta](https://status.im/whitepaper-cn.pdf)
+*   [iEx](https://iex.ec/app/uploads/2017/04/iExec-WPv2.0-Chinese.pdf)
+*   [公\*宝](https://gxs.gxb.io/download/%E5%85%AC%E4%BF%A1%E5%AE%9D%E5%8C%BA%E5%9D%97%E9%93%BE%E4%BA%A7%E5%93%81%E7%99%BD%E7%9A%AE%E4%B9%A6-v1.3.2.pdf)
+*   [UG链：去中⼼化游戏账户系统](https://www.ugchain.org/pdf/UGC-Whitepaper-7.4-CN.pdf)
+*   [玄链：一个基于区块链技术的颠覆式小说原创阅读平台](https://github.com/rockxie/xuanchain/blob/master/%E7%8E%84%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.md)
+*   [域链](https://pan.baidu.com/s/1kU6QXXt)
+*   [联合币](https://triaconta.com/wp-content/uploads/2017/12/CombiCoin%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+*   [Achain](https://www.achain.com/Achain%20Whitepaper%202.0_CHS.pdf)
+*   [ATLANT 平台](https://atlant.io/assets/documents/cn/Atlant_WP_publish.pdf)

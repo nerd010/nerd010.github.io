@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>K8S-Deploy - 简闻</title><meta name="Description" content="kubernetes deploy"><meta property="og:title" content="K8S-Deploy" />
+<meta property="og:description" content="kubernetes deploy" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nerd010.github.io/k8s-deploy/" /><meta property="og:image" content="https://nerd010.github.io/static/images/logo.JPG"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-06-07T15:32:19+08:00" />
+<meta property="article:modified_time" content="2021-06-23T10:06:25+08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nerd010.github.io/static/images/logo.JPG"/>
+
+<meta name="twitter:title" content="K8S-Deploy"/>
+<meta name="twitter:description" content="kubernetes deploy"/>
+<meta name="application-name" content="简闻">
+<meta name="apple-mobile-web-app-title" content="简闻"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://nerd010.github.io/k8s-deploy/" /><link rel="prev" href="https://nerd010.github.io/ipfs-readme/" /><link rel="next" href="https://nerd010.github.io/iphone6s%E5%86%8D%E4%B8%80%E6%98%A5/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "K8S-Deploy",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nerd010.github.io\/k8s-deploy\/"
+        },"genre": "posts","keywords": "docker, kubernetes","wordcount":  1634 ,
+        "url": "https:\/\/nerd010.github.io\/k8s-deploy\/","datePublished": "2018-06-07T15:32:19+08:00","dateModified": "2021-06-23T10:06:25+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Zk"
+            },"description": "kubernetes deploy"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="简闻">简闻</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="简闻">简闻</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">K8S-Deploy</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Zk</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/docker/"><i class="far fa-folder fa-fw"></i>Docker</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2018-06-07">2018-06-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1634 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 4 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://images.unsplash.com/photo-1595587637401-83ff822bd63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1977&amp;q=80"
+        data-srcset="https://images.unsplash.com/photo-1595587637401-83ff822bd63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1977&amp;q=80, https://images.unsplash.com/photo-1595587637401-83ff822bd63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1977&amp;q=80 1.5x, https://images.unsplash.com/photo-1595587637401-83ff822bd63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1977&amp;q=80 2x"
+        data-sizes="auto"
+        alt="https://images.unsplash.com/photo-1595587637401-83ff822bd63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1977&amp;q=80"
+        title="kubernetes deploy" /></div><div class="details toc" id="toc-static"  kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#准备工作">准备工作</a></li>
+    <li><a href="#安装-kubeadm">安装 kubeadm</a>
+      <ul>
+        <li><a href="#准备工作-1">准备工作</a>
+          <ul>
+            <li><a href="#安装-docker">安装 Docker</a></li>
+          </ul>
+        </li>
+        <li><a href="#安装-kubeadm-kubectl-kubelet">安装 kubeadm, kubectl, kubelet</a></li>
+        <li><a href="#下载-k8s-镜像">下载 k8s 镜像</a></li>
+        <li><a href="#修改-image-tag">修改 image tag</a></li>
+        <li><a href="#初始化-master-节点">初始化 master 节点</a></li>
+        <li><a href="#加入集群">加入集群</a></li>
+        <li><a href="#常用命令">常用命令</a>
+          <ul>
+            <li><a href="#kubeadm-常用命令">kubeadm 常用命令</a></li>
+            <li><a href="#kubectl-常用命令">kubectl 常用命令</a></li>
+          </ul>
+        </li>
+        <li><a href="#参考文档">参考文档</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="部署-kubernetes">部署 Kubernetes</h1>
+<p>阿里云有提供一套可用的 k8s，如果自己部署的话就不需要再依赖于阿里云相关文档中所要求的环境。</p>
+<h2 id="准备工作">准备工作</h2>
+<ol>
+<li>运行 deb/rpm 兼容操作系统的一台或多台机器，例如 Ubuntu 或 CentOS</li>
+<li>每台机器 2GB 或更多内存</li>
+<li>master 上的 CPU 要求 2 核或以上</li>
+<li>集群中所有机器（公用或专用网络都可以）的网络都是可连通的</li>
+</ol>
+<h2 id="安装-kubeadm">安装 kubeadm</h2>
+<h3 id="准备工作-1">准备工作</h3>
+<ul>
+<li>
+<p>操作系统为 Ubuntu 16.04+</p>
+</li>
+<li>
+<p>禁用 Swap。为了让 kubelet 正常工作你必须禁用 swap。</p>
+</li>
+</ul>
+<h4 id="安装-docker">安装 Docker</h4>
+<p>在你的每一台机器上安装 Docker。建议使用的版本号为 17.03。而 1.11， 1.12 和 1.13 是可以正常使用的。17.06+ 可以用，但是 Kubernetes 团队还没有测试和验证。</p>
+<p>如果你已经安装了要求的 Docker 版本，你可以进入下一部分了。如果没有，请用下面的命令安装 Docker。</p>
+<pre><code>apt-get update
+apt-get install -y docker.io
+</code></pre>
+<p>或者安装 Docker CE 17.03</p>
+<pre><code>apt-get update
+apt-get install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+add-apt-repository &quot;deb https://download.docker.com/linux/$(. /etc/os-release; echo &quot;$ID&quot;) $(lsb_release -cs) stable&quot;
+apt-get update &amp;&amp; apt-get install -y docker-ce=$(apt-cache madison docker-ce | grep 17.03 | head -1 | awk '{print $3}')
+</code></pre>
+<p>这里是 <a href="https://docs.docker.com/engine/installation/" target="_blank" rel="noopener noreffer">Docker 官方的安装指南</a></p>
+<h3 id="安装-kubeadm-kubectl-kubelet">安装 kubeadm, kubectl, kubelet</h3>
+<pre><code>版本号：1.10.3-00
+</code></pre>
+<ul>
+<li>
+<p>kubeadm: 引导启动 k8s 集群的命令工具。</p>
+</li>
+<li>
+<p>kubelet: 在群集中的所有计算机上运行的组件, 并用来执行如启动 pods 和 containers 等操作。</p>
+</li>
+<li>
+<p>kubectl: 用于操作运行中的集群的命令行工具。</p>
+<p>sudo apt-get update &amp;&amp; sudo apt-get install -y apt-transport-https
+curl -s <a href="http://packages.faasx.com/google/apt/doc/apt-key.gpg" target="_blank" rel="noopener noreffer">http://packages.faasx.com/google/apt/doc/apt-key.gpg</a> | sudo apt-key add -
+sudo cat &laquo;EOF &gt;/etc/apt/sources.list.d/kubernetes.list
+deb <a href="http://mirrors.ustc.edu.cn/kubernetes/apt/" target="_blank" rel="noopener noreffer">http://mirrors.ustc.edu.cn/kubernetes/apt/</a> kubernetes-xenial main
+EOF
+sudo apt-get update
+sudo apt-get install -y kubelet kubeadm kubectl</p>
+</li>
+</ul>
+<blockquote>
+<p>apt-key 官方地址为：<a href="https://packages.cloud.google.com/apt/doc/apt-key.gpg%e3%80%82" target="_blank" rel="noopener noreffer">https://packages.cloud.google.com/apt/doc/apt-key.gpg。</a></p>
+<p>apt安装包地址使用了中科大的镜像，官方地址为：<a href="http://apt.kubernetes.io/%e3%80%82" target="_blank" rel="noopener noreffer">http://apt.kubernetes.io/。</a></p>
+</blockquote>
+<p>从该链接 <a href="https://raw.githubusercontent.com/EagleChen/kubernetes_init/master/kube_apt_key.gpg" target="_blank" rel="noopener noreffer">https://raw.githubusercontent.com/EagleChen/kubernetes_init/master/kube_apt_key.gpg</a> 下载 kube_apt_key.gpg 到当前工作目录下，并按如下指令添加</p>
+<p><code>$ cat kube_apt_key.gpg | sudo apt-key add -</code></p>
+<p>显示 OK 即表示成功</p>
+<h3 id="下载-k8s-镜像">下载 k8s 镜像</h3>
+<pre><code>docker pull anjia0532/kube-proxy-amd64:v1.10.3 \
+&amp;&amp; docker pull anjia0532/kube-controller-manager-amd64:v1.10.3 \
+&amp;&amp; docker pull anjia0532/kube-scheduler-amd64:v1.10.3 \
+&amp;&amp; docker pull anjia0532/kube-apiserver-amd64:v1.10.3 \
+&amp;&amp; docker pull anjia0532/k8s-dns-dnsmasq-nanny-amd64:1.14.8 \
+&amp;&amp; docker pull anjia0532/k8s-dns-sidecar-amd64:1.14.8 \
+&amp;&amp; docker pull anjia0532/k8s-dns-kube-dns-amd64:1.14.8 \
+&amp;&amp; docker pull anjia0532/pause-amd64:3.1 \
+&amp;&amp; docker pull quay.io/coreos/flannel:v0.10.0-amd64
+</code></pre>
+<h3 id="修改-image-tag">修改 image tag</h3>
+<pre><code>docker tag anjia0532/kube-proxy-amd64:v1.10.3 k8s.gcr.io/kube-proxy-amd64:v1.10.3 \
+&amp;&amp; docker tag anjia0532/kube-controller-manager-amd64:v1.10.3 k8s.gcr.io/kube-controller-manager-amd64:v1.10.3 \
+&amp;&amp; docker tag anjia0532/kube-scheduler-amd64:v1.10.3 k8s.gcr.io/kube-scheduler-amd64:v1.10.3 \
+&amp;&amp; docker tag anjia0532/kube-apiserver-amd64:v1.10.3 k8s.gcr.io/kube-apiserver-amd64:v1.10.3 \
+&amp;&amp; docker tag anjia0532/k8s-dns-dnsmasq-nanny-amd64:1.14.8 k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.8 \
+&amp;&amp; docker tag anjia0532/k8s-dns-sidecar-amd64:1.14.8 k8s.gcr.io/k8s-dns-sidecar-amd64:1.14.8 \
+&amp;&amp; docker tag anjia0532/k8s-dns-kube-dns-amd64:1.14.8 k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.8 \
+&amp;&amp; docker tag anjia0532/pause-amd64:3.1 k8s.gcr.io/pause-amd64:3.1
+</code></pre>
+<p><strong>需要下载 <code>crictl</code></strong></p>
+<ul>
+<li>
+<p>USER 与 IP 修改为自己的</p>
+<p>$ wget <a href="https://github.com/kubernetes-incubator/cri-tools/releases/download/v1.0.0-beta.1/crictl-v1.0.0-beta.1-linux-amd64.tar.gz" target="_blank" rel="noopener noreffer">https://github.com/kubernetes-incubator/cri-tools/releases/download/v1.0.0-beta.1/crictl-v1.0.0-beta.1-linux-amd64.tar.gz</a>
+$ tar xvf crictl-v1.0.0-beta.1-linux-amd64.tar.gz
+$ sudo chown root:root crictl
+$ sudo cp crictl /usr/bin
+$ scp crictl USER@IP:/home/USER</p>
+<p>$ sudo chown root:root crictl
+$ sudo mv crictl /usr/bin/</p>
+</li>
+</ul>
+<p><strong>上面的步骤需要在所有机器上安装</strong></p>
+<h3 id="初始化-master-节点">初始化 master 节点</h3>
+<pre><code>$ sudo kubeadm init --apiserver-advertise-address=10.66.180.159 --pod-network-cidr=10.244.0.0/16 --feature-gates=CoreDNS=true --kubernetes-version=v1.10.3
+</code></pre>
+<p><strong>输出</strong></p>
+<pre><code>[init] Using Kubernetes version: v1.10.3
+[init] Using Authorization modes: [Node RBAC]
+[preflight] Running pre-flight checks.
+    [WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 18.03.1-ce. Max validated version: 17.03
+[preflight] Starting the kubelet service
+[certificates] Generated ca certificate and key.
+[certificates] Generated apiserver certificate and key.
+[certificates] apiserver serving cert is signed for DNS names [org2 kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local] and IPs [10.96.0.1 10.66.180.159]
+[certificates] Generated apiserver-kubelet-client certificate and key.
+[certificates] Generated etcd/ca certificate and key.
+[certificates] Generated etcd/server certificate and key.
+[certificates] etcd/server serving cert is signed for DNS names [localhost] and IPs [127.0.0.1]
+[certificates] Generated etcd/peer certificate and key.
+[certificates] etcd/peer serving cert is signed for DNS names [org2] and IPs [10.66.180.159]
+[certificates] Generated etcd/healthcheck-client certificate and key.
+[certificates] Generated apiserver-etcd-client certificate and key.
+[certificates] Generated sa key and public key.
+[certificates] Generated front-proxy-ca certificate and key.
+[certificates] Generated front-proxy-client certificate and key.
+[certificates] Valid certificates and keys now exist in &quot;/etc/kubernetes/pki&quot;
+[kubeconfig] Wrote KubeConfig file to disk: &quot;/etc/kubernetes/admin.conf&quot;
+[kubeconfig] Wrote KubeConfig file to disk: &quot;/etc/kubernetes/kubelet.conf&quot;
+[kubeconfig] Wrote KubeConfig file to disk: &quot;/etc/kubernetes/controller-manager.conf&quot;
+[kubeconfig] Wrote KubeConfig file to disk: &quot;/etc/kubernetes/scheduler.conf&quot;
+[controlplane] Wrote Static Pod manifest for component kube-apiserver to &quot;/etc/kubernetes/manifests/kube-apiserver.yaml&quot;
+[controlplane] Wrote Static Pod manifest for component kube-controller-manager to &quot;/etc/kubernetes/manifests/kube-controller-manager.yaml&quot;
+[controlplane] Wrote Static Pod manifest for component kube-scheduler to &quot;/etc/kubernetes/manifests/kube-scheduler.yaml&quot;
+[etcd] Wrote Static Pod manifest for a local etcd instance to &quot;/etc/kubernetes/manifests/etcd.yaml&quot;
+[init] Waiting for the kubelet to boot up the control plane as Static Pods from directory &quot;/etc/kubernetes/manifests&quot;.
+[init] This might take a minute or longer if the control plane images have to be pulled.
+[apiclient] All control plane components are healthy after 20.001731 seconds
+[uploadconfig] Storing the configuration used in ConfigMap &quot;kubeadm-config&quot; in the &quot;kube-system&quot; Namespace
+[markmaster] Will mark node org2 as master by adding a label and a taint
+[markmaster] Master org2 tainted and labelled with key/value: node-role.kubernetes.io/master=&quot;&quot;
+[bootstraptoken] Using token: yof8me.re7zttbijtwmdavm
+[bootstraptoken] Configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials
+[bootstraptoken] Configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token
+[bootstraptoken] Configured RBAC rules to allow certificate rotation for all node client certificates in the cluster
+[bootstraptoken] Creating the &quot;cluster-info&quot; ConfigMap in the &quot;kube-public&quot; namespace
+[addons] Applied essential addon: CoreDNS
+[addons] Applied essential addon: kube-proxy
+
+Your Kubernetes master has initialized successfully!
+
+To start using your cluster, you need to run the following as a regular user:
+
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+You should now deploy a pod network to the cluster.
+Run &quot;kubectl apply -f [podnetwork].yaml&quot; with one of the options listed at:
+  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+
+You can now join any number of machines by running the following on each node
+as root:
+
+  kubeadm join 10.66.180.159:6443 --token yof8me.re7zttbijtwmdavm --discovery-token-ca-cert-hash sha256:507756057bf6982624fa07bbbbdab0855d555c809ec185aac10de95a00c77e2b
+</code></pre>
+<p>如果需要在非 root 用户使用 <code>kubectl</code>, 可以执行以下命令（也是 <code>kubeadm init</code> 输出的一部分）</p>
+<pre><code>$ mkdir -p $HOME/.kube
+$ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+$ sudo chown $(id -u):$(id -g) $HOME/.kube/config
+</code></pre>
+<p>如果是 root 用户的话，你可以运行以下命令</p>
+<pre><code>export KUBECONFIG=/etc/kubernetes/admin.conf
+</code></pre>
+<p>kubeadm init 输出的 token 用于 master 和加入节点间的身份认证，token 是机密的，需要保证它的安全，因为拥有此标记的人都可以随意向集群中添加节点。你也可以使用 <code>kubeadm</code> 命令列出，创建，删除 Token，有关详细信息, 请参阅<a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/" target="_blank" rel="noopener noreffer">官方引用文档</a>。</p>
+<p><strong>注意：kubeadm 加节点，还会在找 /var/run/dockershim.sock 文件时会报错，得加参数–ignore-preflight-errors=cri</strong></p>
+<h3 id="加入集群">加入集群</h3>
+<pre><code>token 需要换成自己初始化时生成的。
+
+
+kubeadm join 10.66.180.159:6443 --token yof8me.re7zttbijtwmdavm --discovery-token-ca-cert-hash sha256:507756057bf6982624fa07bbbbdab0855d555c809ec185aac10de95a00c77e2b --ignore-preflight-errors=cri
+</code></pre>
+<hr>
+<h3 id="常用命令">常用命令</h3>
+<h4 id="kubeadm-常用命令">kubeadm 常用命令</h4>
+<ul>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-init/" target="_blank" rel="noopener noreffer">kubeadm init</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-join/" target="_blank" rel="noopener noreffer">kubeadm join</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/" target="_blank" rel="noopener noreffer">kubeadm upgrade</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-config/" target="_blank" rel="noopener noreffer">kubeadm config</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-reset/" target="_blank" rel="noopener noreffer">kubeadm reset</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/" target="_blank" rel="noopener noreffer">kubeadm token</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-version/" target="_blank" rel="noopener noreffer">kubeadm version</a></li>
+<li><a href="https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-alpha/" target="_blank" rel="noopener noreffer">kubeadm alpha</a></li>
+</ul>
+<h4 id="kubectl-常用命令">kubectl 常用命令</h4>
+<ul>
+<li><code>kubectl get node --show-labels</code></li>
+<li><code>kubectl get nodes</code></li>
+</ul>
+<hr>
+<h3 id="参考文档">参考文档</h3>
+<ul>
+<li><a href="https://anjia0532.github.io/2017/11/15/gcr-io-image-mirror/" target="_blank" rel="noopener noreffer">Google Container Registry(gcr.io) 中国可用镜像(长期维护)</a></li>
+<li><a href="https://www.cnblogs.com/RainingNight/p/using-kubeadm-to-create-a-cluster.html" target="_blank" rel="noopener noreffer">使用 kubeadm 搭建 Kubernetes(1.10.2) 集群（国内环境）</a></li>
+<li><a href="https://blog.csdn.net/qq_37423198/article/details/79762687" target="_blank" rel="noopener noreffer">ubuntu下使用 kubeadm 安装部署 kubernetes v1.10</a></li>
+<li><a href="https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/" target="_blank" rel="noopener noreffer">使用 kubeadm 创建集群–官方文档</a></li>
+<li><a href="https://k8smeetup.github.io/docs/admin/kubeadm/" target="_blank" rel="noopener noreffer">kubeadm 设置工具参考指南</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-06-23</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/k8s-deploy/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://nerd010.github.io/k8s-deploy/" data-title="K8S-Deploy" data-via="Richard_wzk" data-hashtags="docker,kubernetes"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://nerd010.github.io/k8s-deploy/" data-title="K8S-Deploy" data-description="kubernetes deploy"><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://nerd010.github.io/k8s-deploy/" data-title="K8S-Deploy"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/docker/">docker</a>,&nbsp;<a href="/tags/kubernetes/">kubernetes</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/ipfs-readme/" class="prev" rel="prev" title="IPFS README"><i class="fas fa-angle-left fa-fw"></i>IPFS README</a>
+            <a href="/iphone6s%E5%86%8D%E4%B8%80%E6%98%A5/" class="next" rel="next" title="iPhone6s再一春">iPhone6s再一春<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Life Short! Be Fun!</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2018 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"> 简闻</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
