@@ -4,9 +4,18 @@
         <link>https://nerd010.github.io/</link>
         <description>Get More From Life</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>markwang559@gmail.com ( 简闻)</managingEditor>
-            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Thu, 29 Jun 2023 22:39:17 &#43;0800</lastBuildDate>
+            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Fri, 30 Jun 2023 15:49:02 &#43;0800</lastBuildDate>
             <atom:link href="https://nerd010.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>随便写写01</title>
+    <link>https://nerd010.github.io/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%9901/</link>
+    <pubDate>Fri, 30 Jun 2023 15:49:02 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%9901/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1616990277552-3db5bca0ce13?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2144&amp;q=80" referrerpolicy="no-referrer">
+            </div>在读《老人与海》之前，我觉得这是一本很长的小说，其实很短。 刚看完了《1984》，我也没想到是通过一对男女来写老大哥的。 看美剧《羊毛战记》不错]]></description>
+</item><item>
     <title>嘿SwiftUI00</title>
     <link>https://nerd010.github.io/%E5%98%BFswiftui00/</link>
     <pubDate>Thu, 29 Jun 2023 22:39:17 &#43;0800</pubDate>
@@ -87,14 +96,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://images.unsplash.com/photo-1611228644344-245c2017de43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" referrerpolicy="no-referrer">
             </div>加密数字货币白皮书 POWER LEDGER 中文 POWER LEDGER 英文 比特币白皮书 以太坊 量子链 零币 ICOCION 比特股 比原链 瑞资链 点点币 元宝币 质数币 未来币 瑞波币 小蚁 达世币 BAT 彩色币 以太经典 印]]></description>
-</item><item>
-    <title>About Blog</title>
-    <link>https://nerd010.github.io/about-blog/</link>
-    <pubDate>Sat, 24 Mar 2018 15:32:19 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://nerd010.github.io/about-blog/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80" referrerpolicy="no-referrer">
-            </div>Hello Hugo Hello Hugo 折腾了一周多的时间，现在终于可以用了。暂时没用 wercker，官方文档说得也是比较明白。 最开始也是在自己的 VPS 上用 wordpress 上搞的。整体也整理]]></description>
 </item></channel>
 </rss>
