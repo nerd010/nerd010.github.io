@@ -2,18 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://nerd010.github.io/tags/books/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/categories/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/tags/fiction/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/posts/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/tags/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%9901/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/categories/apple/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/tags/ios/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/tags/swiftui/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://nerd010.github.io/%E5%98%BFswiftui00/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://nerd010.github.io/categories/apple/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/categories/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/tags/ios/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/posts/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/tags/swiftui/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/swiftui-scrollview/</loc><lastmod>2021-08-20T17:20:23&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/tags/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/tags/books/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/tags/fiction/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%9901/</loc><lastmod>2023-06-30T15:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://nerd010.github.io/%E5%98%BFswiftui00/</loc><lastmod>2023-06-29T22:55:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nerd010.github.io/iphone6s%E5%86%8D%E4%B8%80%E6%98%A5/</loc><lastmod>2021-12-09T10:06:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nerd010.github.io/tags/shortcuts/</loc><lastmod>2021-12-09T10:06:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://nerd010.github.io/about/</loc><lastmod>2021-11-01T15:09:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

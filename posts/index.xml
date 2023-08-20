@@ -4,7 +4,16 @@
         <link>https://nerd010.github.io/posts/</link>
         <description>所有文章 | 简闻</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>markwang559@gmail.com ( 简闻)</managingEditor>
-            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Fri, 30 Jun 2023 15:49:02 &#43;0800</lastBuildDate><atom:link href="https://nerd010.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>markwang559@gmail.com ( 简闻)</webMaster><lastBuildDate>Sun, 20 Aug 2023 17:18:23 &#43;0800</lastBuildDate><atom:link href="https://nerd010.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>SwiftUI ScrollView</title>
+    <link>https://nerd010.github.io/swiftui-scrollview/</link>
+    <pubDate>Sun, 20 Aug 2023 17:18:23 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://nerd010.github.io/swiftui-scrollview/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2406&amp;q=80" referrerpolicy="no-referrer">
+            </div>使用 SwiftUI 写到这个功能时候是完全不知道要怎么解决的，于是就查了从网上查了一下找到了解决方法。不过因为目前 Apple 提供的方案在很多情况下不能达到开发者想]]></description>
+</item><item>
     <title>随便写写01</title>
     <link>https://nerd010.github.io/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%9901/</link>
     <pubDate>Fri, 30 Jun 2023 15:49:02 &#43;0800</pubDate>
@@ -85,14 +94,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://images.unsplash.com/photo-1621711678457-a314cede97d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1567&amp;q=80" referrerpolicy="no-referrer">
             </div>Hyperledger Fabric 相关文档 搬来搬去，还是想有自己的地方，于是到这里来了 学习网址 区块链和HyperLedger开源技术讲堂 最好的入门视频教程 hyperledger-fabric 官方文档 需要通]]></description>
-</item><item>
-    <title>加密数字货币白皮书</title>
-    <link>https://nerd010.github.io/whitepaper/</link>
-    <pubDate>Thu, 29 Mar 2018 10:23:56 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://nerd010.github.io/whitepaper/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://images.unsplash.com/photo-1611228644344-245c2017de43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=668&amp;q=80" referrerpolicy="no-referrer">
-            </div>加密数字货币白皮书 POWER LEDGER 中文 POWER LEDGER 英文 比特币白皮书 以太坊 量子链 零币 ICOCION 比特股 比原链 瑞资链 点点币 元宝币 质数币 未来币 瑞波币 小蚁 达世币 BAT 彩色币 以太经典 印]]></description>
 </item></channel>
 </rss>
